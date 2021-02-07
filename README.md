@@ -1,2 +1,47 @@
-# sharenote
-Share Note is a web based notes sharing and management system which helps students and teachers to share their notes online effectively. It reduces the wasting of time in manually distributing notes to each individual. It greatly overcomes the lack of availability and converts the manual old school paperwork to a fully automated and managed online system. Share Note allows it's users to securely register and log in to their individual accounts and create, read , update, delete notes according to their needs. It provides notes to everyone in a very secure manner. Multiple users can work in this system at the same time under centralized supervision by administrator. It is a very useful notes management system for Colleges, Schools and other Institutes to manage and share their notes in an secure, efficient and effective manner.
+# Share Notes
+## A notes management system which helps users to upload,download and manage notes of their particular course. The whole system is coded in core PHP and MySqli
+
+
+
+### Requirements 
+
+- PHP 5.3 or higher recommended 
+- MySQL DB
+- Ability to write .htaccess file for apache mod_rewrite
+
+### Installation
+- Upload Share Notes to the directory of your choice. (E.g :  /xampp/htdocs/sharenotes ) ##Xampp Server
+- Import MySql Db file to your database software (E.g : PhpMyAdmin -> Create DB -> Import notes.sql  )
+- Configure connection between your database and server by modifying the /includes/connection.php file
+- Navigate to the installation in your browser ( E.g :  http://localhost/share-notes )
+- Done :)
+
+### Login Details
+
+1. Admin:
+
+username: root
+
+password: krish@admin
+
+2. User:
+
+username: user
+
+password: userpass
+
+### Main Features
+
+- Multiple user access:  Allows multiple type of users(teacher/student/admin) to login 
+- Functional Admin panel:  Allows admins to manage the whole system
+- CRUD functionalities:  Allows all users to create,read,update and delete their notes in a managed format 
+- Profile update option:  Allows users to update their profile/account details  
+- Secure registration and login option for users
+- Allows students and teachers to download/upload their course notes easily
+- Allows users to recover their password using forgot password option
+
+### To-Do  list
+- Add pagination for notes
+- Add login with facebook and google+ option
+- Add search notes option
+
