@@ -20,7 +20,7 @@
 ?>
 
 <h3 class="page-header">
-                            <center> <marquee width = 70% ><font color="green" > Notes uploaded by various users</font></marquee></center>
+                            <center> <marquee width = 70% ><font color="green" > Notes </font></marquee></center>
                         </h3> 
 <div class="row">
 <div class="col-lg-12">
